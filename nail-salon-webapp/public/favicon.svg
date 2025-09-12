@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="16" fill="#F7CAC9"/>
+  <!-- Fancy nail polish bottle -->
+  <rect x="20" y="24" width="24" height="28" rx="10" fill="#B76E79" stroke="#22223B" stroke-width="3"/>
+  <!-- Gold cap -->
+  <rect x="26" y="12" width="12" height="16" rx="4" fill="#FFD700" stroke="#B76E79" stroke-width="2"/>
+  <!-- Decorative label -->
+  <ellipse cx="32" cy="40" rx="8" ry="4" fill="#E6CFE3" stroke="#9F5F80" stroke-width="1.5"/>
+  <!-- Shine -->
+  <ellipse cx="32" cy="34" rx="6" ry="2.5" fill="#FFFFFF" opacity="0.5"/>
+</svg>

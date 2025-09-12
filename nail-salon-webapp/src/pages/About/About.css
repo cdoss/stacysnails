@@ -1,0 +1,23 @@
+.page-container {
+	max-width: 900px;
+	margin: 2rem auto;
+	padding: 2rem;
+	background: var(--color-silver);
+	border-radius: 12px;
+	box-shadow: 0 2px 12px rgba(57,55,91,0.08);
+	text-align: center;
+}
+.about-title {
+	color: var(--color-orchid);
+}
+.about-section {
+	background: #f5f3f7;
+	border-radius: 12px;
+	margin-bottom: 2rem;
+	box-shadow: 0 1px 4px rgba(116,92,151,0.05);
+	overflow: hidden;
+}
+.about-blurb p {
+	color: var(--color-space-cadet);
+	font-size: 1.15rem;
+}

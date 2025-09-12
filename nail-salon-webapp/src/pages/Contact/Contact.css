@@ -1,0 +1,94 @@
+.contact-social-title {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  color: var(--color-ultra-violet);
+  font-weight: 600;
+}
+.social-icon {
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+  transition: filter 0.2s;
+  filter: grayscale(30%);
+}
+.social-icon:hover {
+  filter: none;
+}
+/* Social media section */
+.contact-social {
+  margin-top: 2.5rem;
+  text-align: center;
+}
+.contact-social h4 {
+  margin-bottom: 1rem;
+  color: var(--color-orchid);
+}
+.contact-social ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.contact-social li a {
+  color: var(--color-ultra-violet);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.1rem;
+  transition: color 0.2s;
+}
+.contact-social li a:hover {
+  color: var(--color-orchid);
+  text-decoration: underline;
+}
+/* Spacing for contact blurb */
+.contact-blurb {
+  font-size: 1.15rem;
+  color: var(--color-space-cadet);
+  margin-bottom: 2.5rem;
+}
+/* Contact page styles */
+.contact-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 12px;
+}
+.contact-container h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: var(--color-orchid);
+}
+.contact-container h3 {
+  margin: 0;
+  color: var(--color-ultra-violet);
+}
+.contact-container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: var(--color-silver);
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(57,55,91,0.08);
+  text-align: center;
+}
+.contact-container .contact-phone a {
+  color: var(--color-orchid);
+  text-decoration: none;
+}
+.contact-container h4 {
+  margin: 0.5rem 0;
+  color: var(--color-ultra-violet);
+}
+.contact-container .contact-hours {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.contact-container .yelp-link {
+  color: var(--color-ultra-violet);
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+  display: block;
+}

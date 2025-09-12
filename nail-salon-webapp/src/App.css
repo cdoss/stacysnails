@@ -1,0 +1,116 @@
+/* Color scheme variables */
+:root {
+  --color-silver: #c4bbb8;
+  --color-lavender-pink: #f5b0cb;
+  --color-orchid: #dc6acf;
+  --color-ultra-violet: #745c97;
+  --color-space-cadet: #39375b;
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.page-container {
+  width: 100%;
+  margin: 0;
+:root {
+  --color-text-main: #39375b; /* space cadet for main text */
+  --color-text-heading: #dc6acf; /* orchid for headings */
+}
+  padding: 0 0;
+  background: #fff;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+  color: var(--color-text-main);
+  background-color: var(--color-silver);
+.about-title {
+  text-align: center;
+  color: #b76e79;
+  margin-bottom: 2rem;
+  width: 100%;
+  display: block;
+  flex-basis: 100%;
+}
+.about-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 2rem;
+  align-items: stretch;
+}
+.about-blurb {
+  flex: 1 1 0;
+  font-size: 1.15rem;
+  color: #555;
+  min-width: 220px;
+  display: flex;
+  align-items: center;
+}
+.about-image-placeholder {
+  flex: 1 1 0;
+  min-width: 220px;
+  height: 200px;
+  background: #f3e6ea;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #b76e79;
+  font-size: 1.1rem;
+  font-style: italic;
+}
+@media (max-width: 900px) {
+  .about-row {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .about-blurb, .about-image-placeholder {
+    min-width: 0;
+    width: 100%;
+    height: auto;
+  }
+  .about-image-placeholder {
+    height: 150px;
+  }
+}
+
+.read-the-docs {
+  color: #888;
+}
