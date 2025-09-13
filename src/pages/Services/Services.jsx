@@ -17,8 +17,8 @@ const services = [
     items: [
       { name: "Classic Pedicure", price: "$35", desc: "Relaxing soak, nail shaping, cuticle care, exfoliation, light callus removal, moisturizer and your choice of classic polish." },
       { name: "Gel Pedicure", price: "$50", desc: "All the benefits of our Classic Pedicure finished with chip-resistant gel polish." },
-      { name: "Spa Pedicure", price: "$50", desc: "A pampering upgrade that includes an exfoliating scrub, hydrating mask, hot stone massage, and classic polish." },
-      { name: "Gel Spa Pedicure", price: "$65", desc: "All the indulgence of the Spa Pedicure finished with chip-resistant gel polish." },
+      { name: "Spa Pedicure", price: "$60", desc: "A pampering upgrade that includes an exfoliating scrub, hydrating mask, hot stone massage, and classic polish." },
+      { name: "Gel Spa Pedicure", price: "$70", desc: "All the indulgence of the Spa Pedicure finished with chip-resistant gel polish." },
       { name: "Color Change (Classic Polish)", price: "$15", desc: "Quick nail shaping and buffing finished with a fresh coat of classic polish." },
       { name: "Color Change (Gel Polish)", price: "$35", desc: "Quick nail shaping and buffing finished with chip-resistant gel polish." }
     ]
@@ -56,16 +56,19 @@ const services = [
     category: "Waxing",
     items: [
       { name: "Eyebrow", price: "$12", desc: "Professional eyebrow shaping and waxing." },
-      { name: "Lip", price: "$8", desc: "Gentle waxing for smooth, hair-free lips." },
-      { name: "Chin", price: "$10", desc: "Targeted waxing for chin area." },
-      { name: "Full Face", price: "$35", desc: "Comprehensive waxing for the entire face." },
-      { name: "Underarm", price: "$15", desc: "Quick and effective underarm waxing." },
-      { name: "Half Arm", price: "$20", desc: "Waxing for lower or upper arms." },
-      { name: "Full Arm", price: "$35", desc: "Complete arm waxing." },
-      { name: "Half Leg", price: "$30", desc: "Waxing for lower or upper legs." },
-      { name: "Full Leg", price: "$50", desc: "Complete leg waxing." },
-      { name: "Bikini", price: "$30", desc: "Basic bikini line waxing." },
-      { name: "Brazilian", price: "$50", desc: "Full Brazilian waxing." }
+      { name: "Lip", price: "$5", desc: "Gentle waxing for smooth, hair-free lips." },
+      { name: "Chin", price: "$8+", desc: "Targeted waxing for chin area." },
+      { name: "Full Face", price: "$35+", desc: "Comprehensive waxing for the entire face." },
+      { name: "Underarm", price: "$15+", desc: "Quick and effective underarm waxing." },
+      { name: "Half Arm", price: "$20+", desc: "Waxing for lower or upper arms." },
+      { name: "Full Arm", price: "$40+", desc: "Complete arm waxing." },
+      { name: "Half Leg", price: "$35+", desc: "Waxing for lower or upper legs." },
+      { name: "Full Leg", price: "$60+", desc: "Complete leg waxing." },
+      { name: "Chest", price: "$30+", desc: "Professional chest waxing." },
+      { name: "Stomach", price: "$15+", desc: "Targeted stomach waxing." },
+      { name: "Back", price: "$40+", desc: "Comprehensive back waxing." },
+      { name: "Bikini", price: "$25+", desc: "Basic bikini line waxing." },
+      { name: "Brazilian", price: "$45+", desc: "Full Brazilian waxing." }
     ]
   }
 ];
