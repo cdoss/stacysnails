@@ -23,8 +23,8 @@ const Home = () => {
                 </div>
             </div>
             <div className="home-cta">
-                <a href="/services" className="home-btn">View Our Services</a>
-                <a href="/contact" className="home-btn">Contact Us</a>
+                <a href="/#/services" className="home-btn">View Our Services</a>
+                <a href="/#/contact" className="home-btn">Contact Us</a>
             </div>
         </div>
     );
