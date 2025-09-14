@@ -1,5 +1,6 @@
 
 import { useEffect } from "react";
+import NotificationBanner from "../../components/NotificationBanner";
 import "./Home.css";
 
 const Home = () => {
@@ -7,7 +8,11 @@ const Home = () => {
         document.title = "Stacy's Nails & Spa";
     }, []);
     return (
-        <div className="page-container home-container">
+        <>
+          <NotificationBanner 
+            message="Online booking is coming soon!" 
+            storageKey="seenBookingBanner" />
+          <div className="page-container home-container">
             <h1>Welcome to Stacy's Nails & Spa</h1>
             <p className="home-blurb">
                 Relax, refresh, and treat yourself to the best nail care and waxing services in Lynn! Our friendly, licensed technicians are here to make you feel pampered and beautiful in a clean, welcoming environment.
@@ -31,6 +36,7 @@ const Home = () => {
                 <a href="/#/contact" className="home-btn">Contact Us</a>
             </div>
         </div>
+        </>
     );
 };
 
