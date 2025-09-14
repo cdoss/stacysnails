@@ -1,4 +1,5 @@
-import React from "react";
+
+import React, { useEffect } from "react";
 import "./Services.css";
 
 const services = [
@@ -74,6 +75,9 @@ const services = [
 ];
 
 const Services = () => {
+  useEffect(() => {
+    document.title = "Services";
+  }, []);
   return (
   <div className="page-container services-container">
       <h1>Our Services</h1>

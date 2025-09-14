@@ -1,9 +1,12 @@
 
-import React from "react";
+import React, { useEffect } from "react";
 import "./Contact.css";
 
 
 const Contact = () => {
+  useEffect(() => {
+    document.title = "Contact Us";
+  }, []);
   return (
     <div className="page-container">
       <div className="contact-container">

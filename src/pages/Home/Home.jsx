@@ -1,7 +1,11 @@
 
+import { useEffect } from "react";
 import "./Home.css";
 
 const Home = () => {
+    useEffect(() => {
+        document.title = "Stacy's Nails & Spa";
+    }, []);
     return (
         <div className="page-container home-container">
             <h1>Welcome to Stacy's Nails & Spa</h1>
