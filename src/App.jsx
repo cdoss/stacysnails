@@ -15,7 +15,7 @@ function App() {
   useEffect(() => {
     if (window.gtag) {
   window.gtag('config', 'G-01BBHJV5H8', {
-        page_path: window.location.hash,
+        page_path: location.pathname,
         page_title: document.title,
       });
     }
