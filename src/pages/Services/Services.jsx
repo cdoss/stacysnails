@@ -1,5 +1,6 @@
 
 import React, { useEffect, useState } from "react";
+import { API_BASE_URL } from "../../config";
 import "./Services.css";
 
 
@@ -13,7 +14,6 @@ const Services = () => {
   }, []);
 
   useEffect(() => {
-  const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
   fetch(`${API_BASE_URL}/services`)
       .then((res) => {
         if (!res.ok) throw new Error("Failed to fetch services");
