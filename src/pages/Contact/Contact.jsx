@@ -27,10 +27,10 @@ const Contact = () => {
         <div className="contact-social">
           <h4 className="contact-social-title">Social Media</h4>
           <ul>
-            <li><a href="https://www.facebook.com/search/top?q=stacy's%20nails%20%26%20spa" target="_blank" rel="noopener noreferrer"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg" alt="Facebook" className="social-icon" /> </a></li>
-            <li><a href="https://www.instagram.com/explore/locations/1022829642/stacys-nails-spa/" target="_blank" rel="noopener noreferrer"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="Instagram" className="social-icon" /> </a></li>
-            <li><a href="https://www.yelp.com/biz/stacys-nails-and-spa-lynn" target="_blank" rel="noopener noreferrer"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/yelp.svg" alt="Yelp" className="social-icon" /> </a></li>
-            <li><a href="https://www.google.com/maps/place/Stacy's+Nails+%26+Spa/@42.464, -70.949,17z/data=!3m1!4b1!4m7!3m6!1s0x89e370e2e2e2e2e2:0x2e2e2e2e2e2e2e2e!8m2!3d42.464!4d-70.949!16s%2Fg%2F11c2e2e2e2e" target="_blank" rel="noopener noreferrer"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/google.svg" alt="Google" className="social-icon" /> </a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=61580865424422" target="_blank" rel="noopener noreferrer"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg" alt="Facebook" className="social-icon" /> </a></li>
+            <li><a href="https://www.instagram.com/stacy.nails.by.theary90/" target="_blank" rel="noopener noreferrer"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="Instagram" className="social-icon" /> </a></li>
+            <li><a href="https://www.yelp.com/biz/stacys-nails-and-spa-lynn?osq=stacy%27s+nails" target="_blank" rel="noopener noreferrer"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/yelp.svg" alt="Yelp" className="social-icon" /> </a></li>
+            <li><a href="https://share.google/MFHxo2JqkobqRPHzL" target="_blank" rel="noopener noreferrer"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/google.svg" alt="Google" className="social-icon" /> </a></li>
           </ul>
         </div>
       </div>
