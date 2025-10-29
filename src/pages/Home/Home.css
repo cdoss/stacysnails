@@ -40,6 +40,7 @@
   display: flex;
   gap: 1.5rem;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .home-btn {
   background: var(--color-ultra-violet);
@@ -49,11 +50,23 @@
   text-decoration: none;
   font-weight: 600;
   font-size: 1.1rem;
-  transition: background 0.2s, color 0.2s;
+  transition: background 0.2s, color 0.2s, transform 0.2s;
 }
 .home-btn:hover {
   background: var(--color-orchid);
   color: var(--color-space-cadet);
+}
+.home-btn-primary {
+  background: var(--color-orchid);
+  color: white;
+  font-size: 1.2rem;
+  padding: 0.85rem 2.5rem;
+  box-shadow: 0 4px 12px rgba(197,75,185,0.3);
+}
+.home-btn-primary:hover {
+  background: var(--color-ultra-violet);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(197,75,185,0.4);
 }
 @media (max-width: 700px) {
   .home-highlights {
