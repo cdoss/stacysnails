@@ -10,7 +10,7 @@ const Footer = () => {
         <p>Hours:</p>
         <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
           <li>Mon – Sat: 9:00 am – 7:00 pm</li>
-          <li>Sun: Closed/li>
+          <li>Sun: Closed</li>
         </ul>
         <p>&copy; {new Date().getFullYear()} Stacy's Nails & Spa. All rights reserved.</p>
       </div>
